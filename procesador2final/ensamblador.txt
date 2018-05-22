@@ -1,0 +1,9 @@
+1.mov -4095, %l0
+2.mov 4095, %l1
+3.addcc %l0,%l1,%o0
+4.restore %l0, %l1, %o1
+5.save %l0, %l1, %o1
+6.subx %l1, %l0, %o2
+7.mov 15, %l2
+8.mov 15, %l3
+9.subcc %l2, %l3, %o3
